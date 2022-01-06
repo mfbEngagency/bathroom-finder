@@ -9,7 +9,7 @@ app.use(express.json()); //req.body
 
 // Routes //
 
-// Add user
+// Add users
 
 // Add bathroom
 app.post("/bathrooms", async(req, res) => {
