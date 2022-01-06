@@ -8,7 +8,7 @@ CREATE TABLE bathrooms (
     bathroom_id int generated always as identity PRIMARY KEY,
     name text,
     location point,
-    description text,
+    description VARCHAR(100),
     confirmed_public bool,
     entry_key int,
     requires_key bool
