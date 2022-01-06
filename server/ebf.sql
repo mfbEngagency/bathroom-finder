@@ -1,3 +1,5 @@
+-- Create DATABASE emergecyBathroomFinder;
+
 CREATE TABLE users (
     user_id int generated always as identity PRIMARY KEY,
     name text
